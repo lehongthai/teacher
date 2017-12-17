@@ -1,0 +1,20 @@
+{
+    "name": "thai/teacher",
+    "description": "sample package thaile",
+    "license": "Thaile",
+    "authors": [
+        {
+            "name": "ThaiLe",
+            "email": "thailh@vietmoney.vn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thaile\\Teacher\\": "/src"
+        }
+    }
+}
